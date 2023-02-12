@@ -1,0 +1,288 @@
+body {
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  max-width: 480px;
+}
+
+header {
+  max-width: 480px;
+  max-height: 60px;
+  display: flex;
+}
+
+span {
+  color: #2196f3;
+}
+
+.sectionkompu,
+.kontakt,
+.information {
+  display: none;
+}
+
+/* ==============header============== */
+
+.nav {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+.menu-header {
+  padding-left: 276px;
+  height: 40px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: Raleway;
+  color: #212121;
+}
+
+/* =====================main================ */
+
+/* -------hero------ */
+.efectuvni {
+  height: 400px;
+  margin-right: 0px;
+  background: rgba(47, 48, 58, 0.4);
+  background-image: url(img/people.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.efect {
+  font-weight: 900px;
+  font-size: 26px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 118px;
+}
+
+.efect_button {
+  padding: 10px 24px;
+  display: block;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  color: #ffffff;
+  background: #2196f3;
+  margin: 0 auto;
+  white-space: nowrap;
+}
+
+/* ------zaimaimoc---- */
+
+.icon-zaim {
+  height: 70px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.zaim {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.zaimh3 {
+  height: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  text-align: center;
+}
+
+.textp {
+  height: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  text-align: center;
+}
+
+/* ----komanda---- */
+
+.komm {
+  height: 33px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  align-self: center;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+.humans {
+  margin-left: 15px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+.humanli {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 30px;
+}
+
+.human {
+  width: 450px;
+  height: 460px;
+  text-align: center;
+}
+.im {
+  height: 19px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  white-space: nowrap;
+  margin-top: 30px;
+  text-align: center;
+}
+.prof {
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* -----clients---- */
+
+.clientsh3 {
+  height: 33px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  white-space: nowrap;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.icons-clients {
+  margin-bottom: 60px;
+}
+
+.icon-clients {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.icon-clients {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.a {
+  height: 48px;
+  width: 43px;
+  padding: 21px 81.73px 19.77px 82px;
+}
+.b {
+  width: 39px;
+  height: 51px;
+  padding: 18px 84px;
+}
+.c {
+  height: 42px;
+  width: 40px;
+  padding: 23px 83px 22.4px 84px;
+}
+.d {
+  height: 41px;
+  width: 79px;
+  padding: 23px 64.34px 22.98px 64px;
+}
+.e {
+  height: 46px;
+  width: 58px;
+  padding: 21px 74px 20px 75px;
+}
+.f {
+  height: 44px;
+  width: 87px;
+  padding: 21px 59.52px 21.56px 60px;
+}
+/* ================footer============ */
+
+.nav2 {
+  background: #2f303a;
+  width: 480px;
+  height: 603px;
+}
+
+.logo2 {
+  width: 154px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 163px;
+  margin-top: 60px;
+  font-family: Raleway;
+}
+
+.info-footer {
+  width: 232px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 86px;
+}
+.cont {
+  padding-left: 40px;
+}
