@@ -205,6 +205,16 @@ section {
   text-align: center;
 }
 
+.media {
+  height: 20px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.mediadiv {
+  display: flex;
+}
+
 /* -----clients---- */
 
 .clientsh3 {
