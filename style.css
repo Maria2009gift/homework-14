@@ -206,13 +206,17 @@ section {
 }
 
 .media {
+  padding-left: 45px;
+  padding-right: 45px;
   height: 20px;
   margin-bottom: 55px;
   margin-top: 55px;
+
 }
 
 .mediadiv {
   display: flex;
+
 }
 
 /* -----clients---- */
@@ -294,3 +298,25 @@ footer {
   padding-left: 40px;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.join {
+  margin-top: 60px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.mediadivfooter {
+  padding-top: 20px;
+  display: flex;
+}
+
+.mediawhite {
+  height: 20px;
+  display: flex;
+}
+
+
