@@ -19,12 +19,12 @@ a {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 img{
   display: block;
@@ -32,24 +32,13 @@ img{
   height: auto;
 }
 
-.nav {
+/* .nav {
   display: flex;
   flex-direction: row;
   max-width: 480px;
-}
+} */
 
-.sectionkompu,
-.kontakt,
-.information {
-  display: none;
-}
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 section {
   padding-top: 68px;
@@ -59,33 +48,147 @@ section {
 /* ==============header============== */
 
 .header {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 60px;
+  max-height: 80px;
 }
 
 .web {
   color: #2196f3;
 }
 
-.menu-header {
-  padding-left: 276px;
-  height: 40px;
-}
-
 .logo {
   font-family: Raleway;
-  font-size: 24px;
   font-weight: 700;
-  line-height: 28px;
   color: #000;
-  padding-top: 6px;
-  padding-bottom: 6px ;
+}
+/* .information {
+  margin-top: 32px;
+  display: flex;
+  max-width: 181px;
+  max-height: 16px;
+  align-items: center;
+  margin-right: 335px;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  margin-right: 54px;
+  color: #212121;
+} */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+/* ++++mobile++++ */
+
+  .nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 60px;
+  }
+  .menu-header {
+    padding-left: 276px;
+    height: 40px;
+  }
+  .logo {
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+  }
+
+  .sectionkompu,
+  .kontakt,
+  .information {
+   display: none;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* ++++tablet+++++ */
+  .menu-header {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+  }
+
+  .logo {
+    font-size: 26px;
+    line-height: 31px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+
+  .information {
+    display: flex;
+    max-width: 289px;
+    max-height: 14px;
+    align-items: center;
+    margin: 0px;
+    /* padding-left: 234px;
+    padding-top: 35px; */
+  }
+  
+  .info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    /* margin-right: 54px; */
+    color: #212121;
+  } 
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 5000px) {
+  /* +++desctop+++ */
+  .menu-header {
+    display: none;
+  }
+  .logo {
+    font-size: 26px;
+    line-height: 31px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+
+  .information {
+    margin-top: 32px;
+    display: flex;
+    max-width: 181px;
+    max-height: 16px;
+    align-items: center;
+    margin-right: 335px;
+  }
+  
+  .info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    margin-right: 54px;
+    color: #212121;
+  } 
+  
 }
 /* =====================main================ */
 
 /* -------hero------ */
-/* @media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+/* ++++mobile++++ */
   .efectuvni {
     height: 400px;
     margin-right: 0px;
@@ -94,12 +197,49 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
   }
-} */
+
+  .efect {
+    font-size: 26px;
+    line-height: 42px;
+  }
+} 
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+/* ++++tablet+++++ */
+  .efectuvni {
+    height: 400px;
+    margin-right: 0px;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(img/peopletablet.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .efect {
+    font-size: 44px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 5000px) {
+/* +++desctop+++ */
+  .efectuvni {
+    height: 400px;
+    margin-right: 0px;
+    background: rgba(47, 48, 58, 0.4);
+    background-image: url(img/peopledesktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .efect {
+    font-size: 44px;
+    line-height: 60px;
+  }
+}
 
 .efect {
   font-weight: 900px;
-  font-size: 26px;
-  line-height: 42px;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -123,7 +263,6 @@ section {
   margin: 0 auto;
   white-space: nowrap;
 }
-
 /* ------zaimaimoc---- */
 
 .icon-zaim {
