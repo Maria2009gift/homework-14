@@ -60,23 +60,27 @@ section {
   font-weight: 700;
   color: #000;
 }
-/* .information {
-  margin-top: 32px;
-  display: flex;
-  max-width: 181px;
-  max-height: 16px;
-  align-items: center;
-  margin-right: 335px;
+/* .kontakt {
+    margin-top: 32px;
+    display: flex;
+    max-width: 172px;
+    max-height: 16px;
+    align-items: center;
+    color: #212121;
 }
 
-.info {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  list-style: none;
-  margin-right: 54px;
-  color: #212121;
+.kont {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    white-space: nowrap;
+    margin-right: 50px;
+    color: #212121;
+}
+.kont1::before {content:"\2709";}
+.kont2::before {content:"\1F4F1"}
 } */
 @media screen and (min-width: 320px) and (max-width: 480px) {
 /* ++++mobile++++ */
@@ -124,6 +128,7 @@ section {
   }
 
   .logo {
+    padding-left: 16px;
     font-size: 26px;
     line-height: 31px;
     padding-top: 24px;
@@ -133,11 +138,7 @@ section {
   .information {
     display: flex;
     max-width: 289px;
-    max-height: 14px;
     align-items: center;
-    margin: 0px;
-    /* padding-left: 234px;
-    padding-top: 35px; */
   }
   
   .info {
@@ -146,40 +147,76 @@ section {
     line-height: 16px;
     letter-spacing: 0.02em;
     list-style: none;
-    /* margin-right: 54px; */
+    margin: 0px;
+    padding-right: 56px;
     color: #212121;
   } 
 
+  .kontakt {
+    padding: 10px;
+    padding-left: 112px;
+    align-items: center;
+    color: #212121;
+  }
+
+  .kont {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    white-space: nowrap;
+    color: #212121;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 5000px) {
   /* +++desctop+++ */
+  .nav {
+    display: flex;
+    /* max-width: 5000px; */
+  }
+
   .menu-header {
     display: none;
   }
+
   .logo {
     font-size: 26px;
     line-height: 31px;
+    padding-left: 215px;
     padding-top: 24px;
     padding-bottom: 25px;
   }
 
   .information {
-    margin-top: 32px;
     display: flex;
-    max-width: 181px;
-    max-height: 16px;
-    align-items: center;
-    margin-right: 335px;
+
   }
-  
+
   .info {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     list-style: none;
-    margin-right: 54px;
+    color: #212121;
+  }
+
+  .kontakt {
+    display: flex;
+    max-height: 16px;
+    color: #212121;
+  }
+
+  .kont {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    list-style: none;
+    white-space: nowrap;
     color: #212121;
   } 
   
