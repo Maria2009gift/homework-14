@@ -8,10 +8,17 @@ body {
   color: #757575;
   letter-spacing: 0,03em;
   background-color: #F5F4FA;
-  ;
+  padding-inline-start: 0px;
 }
 
+
+
+
 ul {
+  list-style: none;
+}
+
+li {
   list-style: none;
 }
 
@@ -27,22 +34,23 @@ img{
 
 /* ==============header============== */
 
-.header {
-  max-height: 80px;
-}
-
-.web {
-  color: #2196f3;
-}
-
-.logo {
-  font-family: Raleway;
-  font-weight: 700;
-  color: #000;
-}
 
 @media screen and (min-width: 320px) {
 /* ++++mobile++++ */
+
+  .header {
+   max-height: 80px;
+  }
+
+  .web {
+   color: #2196f3;
+  }
+
+  .logo {
+   font-family: Raleway;
+   font-weight: 700;
+   color: #000;
+  }
 
   .nav {
     display: flex;
@@ -57,7 +65,7 @@ img{
   .menu-header {
     height: 40px;
     width: 40px;
-    margin-left: 106px;
+    margin-left: 256px;
   }
 
   .logo {
@@ -70,32 +78,30 @@ img{
   .sectionkompu,
   .kontakt,
   .information {
-   display: none;
+    display: none;
   }
+
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
   /* ++++tablet+++++ */
-  /* .menu-header {
+  .menu-header {
     display: none;
-  } */
+  }
 
   .nav {
     display: flex;
+    margin: 0px;
   }
 
   .logo {
-    padding-left: 16px;
+    padding-top: 10px;
     font-size: 26px;
     line-height: 31px;
-    padding-top: 24px;
-    padding-bottom: 25px;
   }
 
   .information {
     display: flex;
-    max-width: 289px;
-    align-items: center;
   }
   
   .info {
@@ -109,77 +115,52 @@ img{
     color: #212121;
   } 
 
+  .lastinfo {
+    padding-right: 0px;
+  }
+
   .kontakt {
+    margin: 0px;
+    display: block;
     padding: 10px;
-    padding-left: 112px;
     align-items: center;
     color: #212121;
   }
 
   .kont {
-    display: block;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    list-style: none;
     white-space: nowrap;
     color: #212121;
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
   /* +++desctop+++ */
-  .nav {
-    display: flex;
 
+  .nav {
+    padding: 0px;
+    display: flex;
   }
 
-  /* .menu-header {
-    display: none;
-  } */
-
   .logo {
-    font-size: 26px;
-    line-height: 31px;
-    padding-left: 215px;
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-left: 115px;
   }
 
   .information {
-    display: flex;
-    margin: 0px;
     padding-left: 93px;
-    padding-top: 32px;
-  }
-
-  .info {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    list-style: none;
-    color: #212121;
-    padding-right: 54px;
   }
 
   .kontakt {
     display: flex;
-    max-height: 16px;
-    color: #212121;
     margin: 0px;
-    padding-top: 32px;
+    padding-left: 335px;
   }
 
   .kont {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    list-style: none;
-    white-space: nowrap;
-    color: #212121;
+
     padding-right: 50px;
   } 
   
@@ -189,20 +170,20 @@ img{
 /* -------hero------ */
 
 /* ++++mobile++++ */
+@media screen and (min-width: 320px) {
   .efectuvni {
-    max-height: 480px;
+    height: 400px;
     background-color: darkslategrey;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/peoplemobile.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-top: 118px;
     padding-bottom: 118px;
-    /* background-position: center; */
+
   }
 
   .efect {
@@ -225,63 +206,27 @@ img{
     background-color: #2196F3;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    border: none;
     padding: 10px 24px;
     display: flex;
     align-items: center;
     cursor: pointer;
   }
+}
 
-
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
 /* ++++tablet+++++ */
   .efectuvni {
-    background-image: url(img/peopletablet.jpg);
-  }
-
-  .efect {
-    font-size: 44px;
-    line-height: 60px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/peoplemobile.jpg);
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 5000px) {
+@media screen and (min-width: 1200px) {
 /* +++desctop+++ */
   .efectuvni {
-    background-image: url(img/peopledesktop.jpg);
-  }
-
-  .efect {
-    font-size: 44px;
-    line-height: 60px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/peoplemobile.jpg);
   }
 }
 
-.efect {
-  font-weight: 900;
-  text-align: center;
-  text-transform: uppercase;
-  color: #ffffff;
-  /* padding-top: 118px; */
-}
-
-.efect_button {
-  padding: 10px 24px;
-  display: block;
-  font-weight: 700px;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
-  color: #ffffff;
-  background: #2196f3;
-  margin: 0 auto;
-  white-space: nowrap;
-}
 /* ------zaimaimoc---- */
 
 .icon-zaim {
@@ -313,6 +258,67 @@ img{
   line-height: 24px;
   color: #757575;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+  .zaim {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .zaimli {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+
+  .textp,
+  .zaimh3 {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .zaim {
+    padding-inline-start: 0px;
+  }
+
+  .zaimli {
+    width: calc((100% - 8 * 15px) / 4);
+    margin: 15px;
+  }
+}
+
+/* ------kompu----- */
+
+@media screen and (min-width: 1200px) {
+  .sectionkompu {
+    display: block;
+    margin-top: 94px;
+    margin-bottom: 188px;
+  }
+
+  .komputext {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+  }
+
+  .kompu {
+    display: flex;
+    padding-left: 215px;
+    padding-right: 215px;
+  }
+
+  .komp {
+    padding-right: 30px;
+  }
+
+
 }
 
 /* ----komanda---- */
@@ -367,6 +373,24 @@ img{
   text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+  .humans {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .humanli {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .humanli {
+    width: calc((100% - 8 * 15px) / 4);
+  }
+}
+
 /* -----clients---- */
 
 .clientsh3 {
@@ -414,6 +438,21 @@ img{
 .f {
   padding: 21px 59.52px 21.56px 60px;
 }
+
+@media screen and (min-width: 768px) {
+  .clientssvg {
+    width: calc((100% - 6 * 15) / 3);
+    margin: 15px;
+  }  
+}
+
+@media screen and (min-width: 1200px) {
+  .clientssvg {
+    width: calc((100% - 8 * 15) / 4);
+    margin: 15px;
+  }  
+}
+
 /* ================footer============ */
 
 footer {
@@ -443,9 +482,65 @@ footer {
   color: #ffffff;
   margin-left: 86px;
 }
-.cont {
-  padding-left: 40px;
-  color: rgba(255, 255, 255, 0.6);
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding-top: 60px;
+    background-color: #2F303A;
+    font-size: 14px;
+    line-height: 1.7;
+    width: 768px;
+  }
+
+  .web,
+  .logo2 {
+    color: #000;
+  }
+
+  .logo2 {
+    margin: 0px;
+    padding-left: 125px;
+  }
+
+  .navfooter {
+    margin: 0px;
+    padding-left: 90px;
+  }
+
+  .info-footer {
+    margin: 0px;
+  }
+
+  .cont {
+    padding-left: 39px;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  footer {
+    padding-top: 60px;
+    background-color: #2F303A;
+    font-size: 14px;
+    line-height: 1.7;
+    width: 1200px;
+  }
 
+  .web {
+    color: #2196F3;
+  }
+
+  .logo2 {
+    color: #FFFFFF;
+  }
+  
+  .cont,
+  .logo2,
+  .navfooter {
+    padding-left: 0px;
+  }
+
+  .nav2 {
+    padding-left: 215px;
+  }
+
+}
