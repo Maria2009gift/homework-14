@@ -19,30 +19,10 @@ a {
   text-decoration: none;
 }
 
-/* .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
 img{
   display: block;
   width: 100%;
   height: auto;
-}
-
-/* .nav {
-  display: flex;
-  flex-direction: row;
-  max-width: 480px;
-} */
-
-
-
-section {
-  padding-top: 68px;
-  padding-bottom: 68px;
 }
 
 /* ==============header============== */
@@ -60,29 +40,8 @@ section {
   font-weight: 700;
   color: #000;
 }
-/* .kontakt {
-    margin-top: 32px;
-    display: flex;
-    max-width: 172px;
-    max-height: 16px;
-    align-items: center;
-    color: #212121;
-}
 
-.kont {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    list-style: none;
-    white-space: nowrap;
-    margin-right: 50px;
-    color: #212121;
-}
-.kont1::before {content:"\2709";}
-.kont2::before {content:"\1F4F1"}
-} */
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) {
 /* ++++mobile++++ */
 
   .nav {
@@ -94,17 +53,15 @@ section {
     margin-left: auto;
     margin-right: auto;
   }
-  .header {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    max-height: 60px;
-  }
+
   .menu-header {
-    padding-left: 276px;
     height: 40px;
+    width: 40px;
+    margin-left: 106px;
   }
+
   .logo {
-    font-size: 24px;
+    height: 28px;
     line-height: 28px;
     padding-top: 6px;
     padding-bottom: 6px ;
@@ -117,11 +74,11 @@ section {
   }
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) {
   /* ++++tablet+++++ */
-  .menu-header {
+  /* .menu-header {
     display: none;
-  }
+  } */
 
   .nav {
     display: flex;
@@ -171,16 +128,16 @@ section {
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 5000px) {
+@media screen and (min-width: 769px) {
   /* +++desctop+++ */
   .nav {
     display: flex;
-    /* max-width: 5000px; */
+
   }
 
-  .menu-header {
+  /* .menu-header {
     display: none;
-  }
+  } */
 
   .logo {
     font-size: 26px;
@@ -192,7 +149,9 @@ section {
 
   .information {
     display: flex;
-
+    margin: 0px;
+    padding-left: 93px;
+    padding-top: 32px;
   }
 
   .info {
@@ -202,12 +161,15 @@ section {
     letter-spacing: 0.02em;
     list-style: none;
     color: #212121;
+    padding-right: 54px;
   }
 
   .kontakt {
     display: flex;
     max-height: 16px;
     color: #212121;
+    margin: 0px;
+    padding-top: 32px;
   }
 
   .kont {
@@ -218,38 +180,63 @@ section {
     list-style: none;
     white-space: nowrap;
     color: #212121;
+    padding-right: 50px;
   } 
   
 }
 /* =====================main================ */
 
 /* -------hero------ */
-@media screen and (min-width: 320px) and (max-width: 480px) {
+
 /* ++++mobile++++ */
   .efectuvni {
-    height: 400px;
-    margin-right: 0px;
-    background: rgba(47, 48, 58, 0.4);
-    background-image: url(img/peoplemobile.jpg);
-    background-size: cover;
+    max-height: 480px;
+    background-color: darkslategrey;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/peoplemobile.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    /* background-position: center; */
   }
 
   .efect {
+    font-weight: 900;
     font-size: 26px;
-    line-height: 42px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
   }
-} 
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+  .efect_button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    border: none;
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+
+@media screen and (min-width: 481px) {
 /* ++++tablet+++++ */
   .efectuvni {
-    height: 400px;
-    margin-right: 0px;
-    background: rgba(47, 48, 58, 0.4);
     background-image: url(img/peopletablet.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .efect {
@@ -261,12 +248,7 @@ section {
 @media screen and (min-width: 769px) and (max-width: 5000px) {
 /* +++desctop+++ */
   .efectuvni {
-    height: 400px;
-    margin-right: 0px;
-    background: rgba(47, 48, 58, 0.4);
     background-image: url(img/peopledesktop.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .efect {
@@ -276,11 +258,11 @@ section {
 }
 
 .efect {
-  font-weight: 900px;
+  font-weight: 900;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  padding-top: 118px;
+  /* padding-top: 118px; */
 }
 
 .efect_button {
@@ -385,20 +367,6 @@ section {
   text-align: center;
 }
 
-.media {
-  padding-left: 45px;
-  padding-right: 45px;
-  height: 20px;
-  margin-bottom: 55px;
-  margin-top: 55px;
-
-}
-
-.mediadiv {
-  display: flex;
-  padding-left: 40px;
-}
-
 /* -----clients---- */
 
 .clientsh3 {
@@ -418,7 +386,7 @@ section {
 }
 
 .clientssvg {
-  display: inline-flex;
+  width: calc((100% - 4 * 15) / 2);
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 210px;
@@ -478,26 +446,6 @@ footer {
 .cont {
   padding-left: 40px;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.join {
-  margin-top: 60px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
-.mediadivfooter {
-  padding-top: 20px;
-  display: flex;
-}
-
-.mediawhite {
-  height: 20px;
-  display: flex;
 }
 
 
