@@ -40,6 +40,8 @@ img{
   margin-left: auto;
 }
 
+
+
 /* ==============header============== */
 
 
@@ -64,10 +66,6 @@ img{
     display: flex;
     flex-direction: row;
     max-width: 480px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .menu-header {
@@ -95,11 +93,13 @@ img{
   /* ++++tablet+++++ */
   .menu-header {
     display: none;
+
   }
 
   .nav {
     display: flex;
     margin: 0px;
+    /* height: 80px; */
   }
 
   .logo {
@@ -110,6 +110,7 @@ img{
 
   .information {
     display: flex;
+    margin-left: 89px;
   }
   
   .info {
@@ -120,10 +121,10 @@ img{
     list-style: none;
     margin: 0px;
     padding-right: 56px;
-    color: #212121;
+    color: #757575;
   } 
 
-  .lastinfo {
+  .information:nth-child(3) {
     padding-right: 0px;
   }
 
@@ -133,6 +134,11 @@ img{
     padding: 10px;
     align-items: center;
     color: #212121;
+    padding-left: 10px;
+  }
+
+  .div-kontakt {
+    display: flex;
   }
 
   .kont {
@@ -141,7 +147,12 @@ img{
     line-height: 16px;
     letter-spacing: 0.02em;
     white-space: nowrap;
-    color: #212121;
+    color: #757575;
+  }
+
+  .icon-kont {
+    height: 14px;
+    margin-right: 10px;
   }
 }
 
@@ -151,6 +162,7 @@ img{
   .nav {
     padding: 0px;
     display: flex;
+    justify-content: center;
   }
 
   .logo {
@@ -168,10 +180,11 @@ img{
   }
 
   .kont {
-
     padding-right: 50px;
   } 
   
+
+
 }
 /* =====================main================ */
 
@@ -247,6 +260,7 @@ img{
   margin-top: 60px;
   margin-bottom: 60px;
   text-align: center;
+
 }
 
 .zaimh3 {
@@ -266,6 +280,7 @@ img{
   line-height: 24px;
   color: #757575;
   text-align: center;
+  white-space: nowrap;
 }
 
 @media screen and (min-width: 768px) {
@@ -287,9 +302,6 @@ img{
 }
 
 @media screen and (min-width: 1200px) {
-  .zaim {
-    padding-inline-start: 0px;
-  }
 
   .zaimli {
     width: calc((100% - 8 * 15px) / 4);
@@ -300,6 +312,14 @@ img{
 /* ------kompu----- */
 
 @media screen and (min-width: 1200px) {
+
+  .container {
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .sectionkompu {
     display: block;
     margin-top: 94px;
@@ -318,8 +338,7 @@ img{
 
   .kompu {
     display: flex;
-    padding-left: 215px;
-    padding-right: 215px;
+    justify-content: center;
   }
 
   .komp {
@@ -343,7 +362,6 @@ img{
   margin-bottom: 30px;
 }
 .humans {
-  margin-left: 15px;
   margin-bottom: 50px;
   padding: 0px;
 }
@@ -397,13 +415,16 @@ img{
   .humanli {
     width: calc((100% - 8 * 15px) / 4);
   }
+
+  .container {
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* -----clients---- */
-
-/* .clients-div {
-  padding-right: 0;
-} */
 
 .clientsh3 {
   /* height: 33px; */
@@ -412,7 +433,7 @@ img{
   line-height: 33px;
   color: #212121;
   white-space: nowrap;
-  margin-top: 60px;
+  margin-top: 138px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -421,16 +442,17 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* margin-bottom: 60px; */
+
 }
 
 .clients-item {
-
   width: calc((100% - 4 * 15px) / 2);
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  /* margin-right: 30px; */
   padding: 20px 0;
+  /* margin-right: 15px; */
+  margin-left: 15px;
+  margin-bottom: 30px;
 
   display: flex;
   justify-content: center;
@@ -438,9 +460,7 @@ img{
 
 }
 
-.clients-item:nth-child(even) {
-  margin-right: 0;
-}
+
 
 .clientssvg {
   fill: #afb1b8;
@@ -461,26 +481,35 @@ img{
 @media screen and (min-width: 768px) {
   .clients-item {
     width: calc((100% - 6 * 15px) / 3);
-    /* margin-right: px; */
+    
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 30px;
   }  
 
-  .clients-item:nth-child(odd) {
-    
-  }
+
+
 }
 
 @media screen and (min-width: 1200px) {
   .clients-item {
-    width: calc((100% - 8 * 15) / 4);
-    /* margin-right: 15px; */
+    width: calc((100% - 12 * 15px) / 6);
+    padding: 20px 0;
+    margin-right: 15px;
   }  
+
+  .container {
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 /* ================footer============ */
 
 footer {
   background: #2f303a;
-  width: 480px;
   height: 603px;
 }
 
@@ -503,16 +532,20 @@ footer {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
-  margin-left: 86px;
+  margin-left: 124px;
+  text-align: center;
+}
+
+.cont {
+  padding-left: 40px;
 }
 
 @media screen and (min-width: 768px) {
   footer {
     padding-top: 60px;
-    background-color: #2F303A;
     font-size: 14px;
     line-height: 1.7;
-    width: 768px;
+    height: 252px;
   }
 
   .web,
@@ -523,6 +556,7 @@ footer {
   .logo2 {
     margin: 0px;
     padding-left: 125px;
+
   }
 
   .navfooter {
@@ -541,11 +575,11 @@ footer {
 
 @media screen and (min-width: 1200px) {
   footer {
+    margin-top: 94px;
     padding-top: 60px;
-    background-color: #2F303A;
     font-size: 14px;
     line-height: 1.7;
-    width: 1200px;
+
   }
 
   .web {
