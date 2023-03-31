@@ -1,4 +1,39 @@
-.efect {
-    color: $bg-color;
-    background-color: #fff;
+.header {
+    max-height: 80px;
 }
+ 
+.web {
+    color: #2196f3;
+}
+ 
+.logo {
+    font-family: $font-logo;
+    font-weight: 700;
+    color: #000;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    max-width: 480px;
+}
+
+.menu-header {
+    height: 40px;
+    width: 40px;
+    margin-left: 256px;
+}
+
+.logo {
+    height: 28px;
+    line-height: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+}
+
+.sectionkompu,
+.kontakt,
+.information {
+    display: none;
+}
+

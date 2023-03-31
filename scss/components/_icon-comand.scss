@@ -1,0 +1,32 @@
+.humanli {
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+  }
+  
+  .human {
+    text-align: center;
+  }
+  .im {
+    height: 19px;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: $basic-color1;
+    white-space: nowrap;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .prof {
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $basic-color2;
+    white-space: nowrap;
+    text-align: center;
+  }

@@ -1,0 +1,39 @@
+*, ::after, ::before {
+   box-sizing: border-box;
+    padding-inline-start: 0px;
+}
+body {
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+    color: #757575;
+    letter-spacing: 0,03em;
+    background-color: #F5F4FA;
+  
+}
+  
+ul {
+  list-style: none;
+  }
+  
+li {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+  }
+  
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  

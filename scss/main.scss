@@ -1,2 +1,12 @@
-@import "base/colors";
+@import "base/reset";
+@import "base/variables";
+
 @import "layout/header";
+
+@import "layout/section-efect";
+
+@import "components/icon-comand";
+@import "layout/section-comand";
+
+@import "components/icon-zaim";
+@import "layout/section-zaim";

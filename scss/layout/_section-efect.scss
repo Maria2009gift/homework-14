@@ -1,0 +1,39 @@
+.efectuvni {
+    height: 400px;
+    background-color: darkslategrey;
+    background-image: url(peoplemobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+  }
+
+  .efect {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+
+  .efect_button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
