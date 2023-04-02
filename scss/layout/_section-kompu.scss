@@ -1,0 +1,34 @@
+@media screen and (min-width: 1200px) {
+
+    .container {
+      padding-left: 215px;
+      padding-right: 215px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+    .sectionkompu {
+      display: block;
+      margin-top: 94px;
+      margin-bottom: 188px;
+    }
+  
+    .komputext {
+      margin-bottom: 50px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 42px;
+      letter-spacing: 0.03em;
+      text-align: center;
+      color: #212121;
+    }
+  
+    .kompu {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .komp {
+      padding-right: 30px;
+    }
+}

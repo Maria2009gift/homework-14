@@ -39,6 +39,35 @@ img {
   margin-left: auto;
 }
 
+.info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  margin: 0px;
+  padding-right: 56px;
+  color: #757575;
+}
+
+.information:nth-child(3) {
+  padding-right: 0px;
+}
+
+.kont {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  color: #757575;
+}
+
+.icon-kont {
+  height: 14px;
+  margin-right: 10px;
+}
+
 .header {
   max-height: 80px;
 }
@@ -83,11 +112,64 @@ img {
   display: none;
 }
 
+@media screen and (min-width: 768px) {
+  /* ++++tablet+++++ */
+  .menu-header {
+    display: none;
+  }
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px;
+  }
+  .logo {
+    padding-top: 10px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 89px;
+  }
+  .kontakt {
+    margin: 0px;
+    display: block;
+    padding: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #212121;
+    padding-left: 10px;
+  }
+  .div-kontakt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.efectuvni {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../all-images/img/peoplemobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../all-images/img/peoplemobile.jpg);
+}
+
+@media screen and (min-width: 768px) {
+  .efectuvni {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../all-images/img/peopletablet.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../all-images/img/peopletablet.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .efectuvni {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../all-images/img/peopledesktop.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../all-images/img/peopledesktop.jpg);
+  }
+}
 .efectuvni {
   height: 400px;
   background-color: darkslategrey;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../all-images/img/peoplemobile.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../all-images/img/peoplemobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -229,6 +311,29 @@ img {
   white-space: nowrap;
 }
 
+@media screen and (min-width: 768px) {
+  .zaim {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .zaimli {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+  .textp,
+  .zaimh3 {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .zaimli {
+    width: calc((100% - 120px) / 4);
+    margin: 15px;
+  }
+}
 .clients-item {
   width: calc((100% - 60px) / 2);
   border: 1px solid #afb1b8;

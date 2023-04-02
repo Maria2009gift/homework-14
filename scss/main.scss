@@ -1,11 +1,13 @@
 @import "base/reset";
 @import "base/variables";
 
+@import "components/nav-header";
 @import "layout/header";
 
+@import "components/img-efectuvni";
 @import "layout/section-efect";
 
-@import "components/icon-comand";
+@import "components/comand";
 @import "layout/section-comand";
 
 @import "components/icon-zaim";

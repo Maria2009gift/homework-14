@@ -24,3 +24,29 @@
     text-align: center;
     white-space: nowrap;
   }
+
+@media screen and (min-width: 768px) {
+
+  .zaim {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .zaimli {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
+  
+  .textp,
+  .zaimh3 {
+    text-align: start;
+  }
+}  
+
+@media screen and (min-width: 1200px) {
+
+  .zaimli {
+    width: calc((100% - 8 * 15px) / 4);
+    margin: 15px;
+  }
+}

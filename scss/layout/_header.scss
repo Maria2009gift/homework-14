@@ -37,3 +37,40 @@
     display: none;
 }
 
+@media screen and (min-width: 768px) {
+/* ++++tablet+++++ */
+.menu-header {
+    display: none;
+}
+  
+.nav {
+    display: flex;
+    margin: 0px;
+}
+  
+.logo {
+    padding-top: 10px;
+    font-size: 26px;
+    line-height: 31px;
+}
+  
+.information {
+    display: flex;
+    margin-left: 89px;
+}
+  
+.kontakt {
+    margin: 0px;
+    display: block;
+    padding: 10px;
+    align-items: center;
+    color: #212121;
+    padding-left: 10px;
+}
+  
+.div-kontakt {
+    display: flex;
+}
+  
+
+}
