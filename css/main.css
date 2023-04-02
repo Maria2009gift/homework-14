@@ -86,7 +86,8 @@ img {
 .efectuvni {
   height: 400px;
   background-color: darkslategrey;
-  background-image: url(peoplemobile.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../all-images/img/peoplemobile.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../all-images/img/peoplemobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -226,4 +227,89 @@ img {
   color: #757575;
   text-align: center;
   white-space: nowrap;
+}
+
+.clients-item {
+  width: calc((100% - 60px) / 2);
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 20px 0;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clientssvg {
+  fill: #afb1b8;
+}
+
+.clients-item:hover .clientssvg {
+  fill: #2196f3;
+}
+
+.clients-item:hover {
+  border: 1px solid #2196f3;
+  cursor: pointer;
+}
+
+.clientsh3 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #212121;
+  white-space: nowrap;
+  margin-top: 138px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.clients-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  background: #2f303a;
+  height: 603px;
+}
+
+.logo2 {
+  width: 154px;
+  height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  margin-left: 163px;
+  font-family: Raleway;
+}
+
+.info-footer {
+  width: 232px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-left: 124px;
+  text-align: center;
+}
+
+.cont {
+  padding-left: 40px;
 }/*# sourceMappingURL=main.css.map */
