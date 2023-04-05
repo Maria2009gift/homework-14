@@ -30,3 +30,16 @@
     white-space: nowrap;
     text-align: center;
   }
+
+@media screen and (min-width: 768px) {
+  .humanli {
+      width: calc((100% - 4 * 15px) / 2);
+      margin: 15px;
+  }
+}  
+
+@media screen and (min-width: 1200px) {
+  .humanli {
+    width: calc((100% - 8 * 15px) / 4);
+  }  
+}
