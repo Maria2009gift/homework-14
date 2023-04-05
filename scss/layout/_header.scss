@@ -31,11 +31,7 @@
     padding-bottom: 6px ;
 }
 
-.sectionkompu,
-.kontakt,
-.information {
-    display: none;
-}
+
 
 @media screen and (min-width: 768px) {
 /* ++++tablet+++++ */
@@ -71,6 +67,27 @@
 .div-kontakt {
     display: flex;
 }
-  
+}
 
+@media screen and (min-width: 1200px) {
+    .nav {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+    }
+
+    .logo {
+        padding-left: 115px;
+    }
+
+    .information {
+        padding-left: 93px;
+    }
+
+    .kontakt {
+        display: flex;
+        margin: 0px;
+        padding-left: 335px;
+    }
 }

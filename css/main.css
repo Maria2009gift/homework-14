@@ -39,6 +39,12 @@ img {
   margin-left: auto;
 }
 
+.sectionkompu,
+.kontakt,
+.information {
+  display: none;
+}
+
 .info {
   font-weight: 500;
   font-size: 14px;
@@ -68,6 +74,11 @@ img {
   margin-right: 10px;
 }
 
+@media screen and (min-width: 1200px) {
+  .kont {
+    padding-right: 30px;
+  }
+}
 .header {
   max-height: 80px;
 }
@@ -106,12 +117,6 @@ img {
   padding-bottom: 6px;
 }
 
-.sectionkompu,
-.kontakt,
-.information {
-  display: none;
-}
-
 @media screen and (min-width: 768px) {
   /* ++++tablet+++++ */
   .menu-header {
@@ -148,6 +153,31 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .nav {
+    padding: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 400px;
+  }
+  .logo {
+    padding-left: 115px;
+  }
+  .information {
+    padding-left: 93px;
+  }
+  .kontakt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0px;
+    padding-left: 335px;
   }
 }
 .efectuvni {
@@ -219,6 +249,97 @@ img {
   cursor: pointer;
 }
 
+.icon-zaim {
+  height: 70px;
+  margin-bottom: 55px;
+  margin-top: 55px;
+}
+
+.zaim {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.zaimh3 {
+  height: 16px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #212121;
+  text-align: center;
+}
+
+.textp {
+  height: 50px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+  text-align: center;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+  .zaim {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .zaimli {
+    width: calc((100% - 60px) / 2);
+    margin: 15px;
+  }
+  .textp,
+  .zaimh3 {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .zaimli {
+    width: calc((100% - 120px) / 4);
+    margin: 15px;
+  }
+  .textp {
+    white-space: normal;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    padding-left: 215px;
+    padding-right: 215px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .sectionkompu {
+    display: block;
+    margin-top: 94px;
+    margin-bottom: 188px;
+  }
+  .komputext {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+  }
+  .kompu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .komp {
+    padding-right: 30px;
+  }
+}
 .humanli {
   border-radius: 0px 0px 4px 4px;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -305,61 +426,6 @@ img {
     padding-right: 215px;
     margin-right: auto;
     margin-left: auto;
-  }
-}
-.icon-zaim {
-  height: 70px;
-  margin-bottom: 55px;
-  margin-top: 55px;
-}
-
-.zaim {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  text-align: center;
-}
-
-.zaimh3 {
-  height: 16px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
-  text-transform: uppercase;
-  color: #212121;
-  text-align: center;
-}
-
-.textp {
-  height: 50px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
-  text-align: center;
-  white-space: nowrap;
-}
-
-@media screen and (min-width: 768px) {
-  .zaim {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .zaimli {
-    width: calc((100% - 60px) / 2);
-    margin: 15px;
-  }
-  .textp,
-  .zaimh3 {
-    text-align: start;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .zaimli {
-    width: calc((100% - 120px) / 4);
-    margin: 15px;
   }
 }
 .clients-item {
@@ -466,4 +532,53 @@ footer {
 
 .cont {
   padding-left: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 1.7;
+    height: 252px;
+  }
+  .web,
+  .logo2 {
+    color: #000;
+  }
+  .logo2 {
+    margin: 0px;
+    padding-left: 125px;
+  }
+  .navfooter {
+    margin: 0px;
+    padding-left: 90px;
+  }
+  .info-footer {
+    margin: 0px;
+  }
+  .cont {
+    padding-left: 39px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  footer {
+    margin-top: 94px;
+    padding-top: 60px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .web {
+    color: #2196F3;
+  }
+  .logo2 {
+    color: #FFFFFF;
+  }
+  .cont,
+  .logo2,
+  .navfooter {
+    padding-left: 0px;
+  }
+  .nav2 {
+    padding-left: 215px;
+  }
 }/*# sourceMappingURL=main.css.map */

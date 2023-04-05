@@ -29,3 +29,65 @@ footer {
 .cont {
     padding-left: 40px;
 }
+
+@media screen and (min-width: 768px) {
+    footer {
+      padding-top: 60px;
+      font-size: 14px;
+      line-height: 1.7;
+      height: 252px;
+    }
+  
+    .web,
+    .logo2 {
+      color: #000;
+    }
+  
+    .logo2 {
+      margin: 0px;
+      padding-left: 125px;
+  
+    }
+  
+    .navfooter {
+      margin: 0px;
+      padding-left: 90px;
+    }
+  
+    .info-footer {
+      margin: 0px;
+    }
+  
+    .cont {
+      padding-left: 39px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    footer {
+      margin-top: 94px;
+      padding-top: 60px;
+      font-size: 14px;
+      line-height: 1.7;
+  
+    }
+  
+    .web {
+      color: #2196F3;
+    }
+  
+    .logo2 {
+      color: #FFFFFF;
+    }
+    
+    .cont,
+    .logo2,
+    .navfooter {
+      padding-left: 0px;
+    }
+  
+    .nav2 {
+      padding-left: 215px;
+    }
+  
+}
