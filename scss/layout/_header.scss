@@ -40,7 +40,7 @@
   
 .nav {
     display: flex;
-    margin: 0px;
+    justify-content:center;
 }
   
 .logo {
@@ -93,9 +93,19 @@
 }
 
 
+@media screen and (min-width: 1400px) {
+    .kontakt {
+        padding-left:200px;
+    }
+    
+}
+
 @media screen and (min-width: 1500px) {
     .kontakt {
 
         padding-left: 335px;
+    
     }
-}
+}    
+
+

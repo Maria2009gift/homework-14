@@ -125,7 +125,9 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .logo {
     padding-top: 10px;
@@ -177,6 +179,11 @@ img {
     display: flex;
     margin: 0px;
     padding-left: 100px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .kontakt {
+    padding-left: 200px;
   }
 }
 @media screen and (min-width: 1500px) {
