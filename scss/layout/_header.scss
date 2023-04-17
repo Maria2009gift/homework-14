@@ -15,7 +15,6 @@
 .nav {
     display: flex;
     flex-direction: row;
-    max-width: 480px;
 }
 
 .menu-header {
@@ -67,6 +66,7 @@
 .div-kontakt {
     display: flex;
 }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -88,6 +88,14 @@
     .kontakt {
         display: flex;
         margin: 0px;
+        padding-left: 100px;
+    }
+}
+
+
+@media screen and (min-width: 1500px) {
+    .kontakt {
+
         padding-left: 335px;
     }
 }

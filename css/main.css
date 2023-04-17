@@ -101,7 +101,6 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  max-width: 480px;
 }
 
 .menu-header {
@@ -177,6 +176,11 @@ img {
     display: -ms-flexbox;
     display: flex;
     margin: 0px;
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .kontakt {
     padding-left: 335px;
   }
 }
@@ -253,6 +257,7 @@ img {
   height: 70px;
   margin-bottom: 55px;
   margin-top: 55px;
+  width: 70px;
 }
 
 .zaim {
@@ -278,7 +283,7 @@ img {
   line-height: 24px;
   color: #757575;
   text-align: center;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 @media screen and (min-width: 768px) {
@@ -332,9 +337,8 @@ img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .komp {
     padding-right: 30px;
